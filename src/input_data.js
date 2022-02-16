@@ -1,3 +1,4 @@
+const colors = ["#00bbff", "#00ffff"];
 const children = [
   {
     couple: [
@@ -7,6 +8,7 @@ const children = [
         born: "",
         dead: "",
         image: "",
+        gender: "M",
       },
       {
         name: "Теда",
@@ -14,6 +16,7 @@ const children = [
         born: "",
         dead: "",
         image: "",
+        gender: "F",
       },
     ],
     children: [
@@ -25,6 +28,7 @@ const children = [
             born: "",
             dead: "",
             image: "",
+            gender: "M",
           },
           {
             name: "Драгиња",
@@ -32,6 +36,7 @@ const children = [
             born: "",
             dead: "",
             image: "",
+            gender: "F",
           },
         ],
         children: [
@@ -43,6 +48,7 @@ const children = [
                 born: "",
                 dead: "",
                 image: "",
+                gender: "M",
               },
               {
                 name: "Јелисавка",
@@ -50,6 +56,7 @@ const children = [
                 born: "11.11.1939",
                 dead: "",
                 image: "",
+                gender: "F",
               },
             ],
             children: [
@@ -61,6 +68,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Милка",
@@ -68,6 +76,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -79,6 +88,7 @@ const children = [
                         born: "",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [],
@@ -91,6 +101,7 @@ const children = [
                         born: "",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [],
@@ -105,6 +116,7 @@ const children = [
                     born: "14.08.1962",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Радинка",
@@ -112,6 +124,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -123,6 +136,7 @@ const children = [
                         born: "1986",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                       {
                         name: "Нина",
@@ -130,6 +144,7 @@ const children = [
                         born: "04.05.1991",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [
@@ -141,6 +156,7 @@ const children = [
                             born: "15.09.2021",
                             dead: "",
                             image: "",
+                            gender: "M",
                           },
                         ],
                         children: [],
@@ -155,6 +171,7 @@ const children = [
                         born: "1989",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                       {
                         name: "Божана",
@@ -162,6 +179,7 @@ const children = [
                         born: "27.10.1988",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [
@@ -173,6 +191,7 @@ const children = [
                             born: "27.11.2019",
                             dead: "",
                             image: "",
+                            gender: "M",
                           },
                         ],
                         children: [],
@@ -191,6 +210,7 @@ const children = [
                 born: "1925",
                 dead: "10.1996",
                 image: "",
+                gender: "M",
               },
             ],
             children: [],
@@ -203,6 +223,7 @@ const children = [
                 born: "",
                 dead: "",
                 image: "",
+                gender: "M",
               },
               {
                 name: "Косанка",
@@ -210,6 +231,7 @@ const children = [
                 born: "",
                 dead: "",
                 image: "",
+                gender: "F",
               },
             ],
             children: [
@@ -221,6 +243,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Гордана",
@@ -228,6 +251,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [],
@@ -240,6 +264,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Десанка",
@@ -247,6 +272,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [],
@@ -259,6 +285,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Лепа",
@@ -266,6 +293,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [],
@@ -278,6 +306,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Милка",
@@ -285,6 +314,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [],
@@ -299,6 +329,7 @@ const children = [
                 born: "",
                 dead: "25.12.2017",
                 image: "",
+                gender: "M",
               },
               {
                 name: "Радмила",
@@ -306,6 +337,7 @@ const children = [
                 born: "",
                 dead: "06.2012",
                 image: "",
+                gender: "F",
               },
             ],
             children: [
@@ -317,6 +349,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Биљана",
@@ -324,6 +357,7 @@ const children = [
                     born: "",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -335,6 +369,7 @@ const children = [
                         born: "1982",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                       {
                         name: "Весна",
@@ -342,6 +377,7 @@ const children = [
                         born: "23.01.1986",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [
@@ -353,6 +389,7 @@ const children = [
                             born: "12.03.2003",
                             dead: "",
                             image: "",
+                            gender: "M",
                           },
                         ],
                         children: [],
@@ -365,6 +402,7 @@ const children = [
                             born: "31.12.2008",
                             dead: "",
                             image: "",
+                            gender: "F",
                           },
                         ],
                         children: [],
@@ -379,6 +417,7 @@ const children = [
                         born: "23.11.1988",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                       {
                         name: "Јована",
@@ -386,6 +425,7 @@ const children = [
                         born: "30.11.1992",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [
@@ -397,6 +437,7 @@ const children = [
                             born: "26.11.2019",
                             dead: "",
                             image: "",
+                            gender: "F",
                           },
                         ],
                         children: [],
@@ -413,6 +454,7 @@ const children = [
                     born: "25.07.1963",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Биљана",
@@ -420,6 +462,7 @@ const children = [
                     born: "10.06.1967",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -431,6 +474,7 @@ const children = [
                         born: "31.03.2000",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                     ],
                     children: [],
@@ -447,6 +491,7 @@ const children = [
                 born: "19.01.1939",
                 dead: "18.01.2022",
                 image: "",
+                gender: "M",
               },
               {
                 name: "Рада",
@@ -454,6 +499,7 @@ const children = [
                 born: "02.04.1951",
                 dead: "",
                 image: "",
+                gender: "F",
               },
             ],
             children: [
@@ -465,6 +511,7 @@ const children = [
                     born: "19.01.1969",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Бранкица",
@@ -472,6 +519,7 @@ const children = [
                     born: "03.06.1972",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -483,6 +531,7 @@ const children = [
                         born: "22.11.1995",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                       {
                         name: "Дајана",
@@ -490,6 +539,7 @@ const children = [
                         born: "20.11.1994",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [],
@@ -502,6 +552,7 @@ const children = [
                         born: "12.10.1997",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                     ],
                     children: [],
@@ -514,6 +565,7 @@ const children = [
                         born: "24.05.2005",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                     ],
                     children: [],
@@ -528,6 +580,7 @@ const children = [
                     born: "27.03.1976",
                     dead: "",
                     image: "",
+                    gender: "M",
                   },
                   {
                     name: "Јелена",
@@ -535,6 +588,7 @@ const children = [
                     born: "20.05.1982",
                     dead: "",
                     image: "",
+                    gender: "F",
                   },
                 ],
                 children: [
@@ -546,6 +600,7 @@ const children = [
                         born: "14.05.2004",
                         dead: "",
                         image: "",
+                        gender: "M",
                       },
                     ],
                     children: [],
@@ -558,6 +613,7 @@ const children = [
                         born: "09.12.2006",
                         dead: "",
                         image: "",
+                        gender: "F",
                       },
                     ],
                     children: [],
@@ -572,4 +628,4 @@ const children = [
   },
 ];
 
-export { children };
+export { children, colors };

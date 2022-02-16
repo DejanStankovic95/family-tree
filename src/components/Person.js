@@ -4,13 +4,18 @@ import "./../App.css";
 class Person extends React.Component {
   render() {
     return (
-      <div className="tc bg-light-green dib br3 pa1 ma2 grow bw2 shadow-5">
+      <div
+        className="tc dib br4 pa1 ma2 grow bw2 shadow-5"
+        style={{ background: "#FFcf60" }}
+      >
         <img
           className="person-image"
           src={
             this.props.person.image
-              ? this.props.image
-              : "https://robohash.org/1?100x100"
+              ? this.props.person.image
+              : this.props.person.gender === "F"
+              ? "https://robohash.org/4?set=set5"
+              : "https://robohash.org/3?set=set5"
           }
           alt="person"
         />
